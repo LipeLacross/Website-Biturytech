@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+:root{
+    --cor-principal:#EE82EE;
+    --cor-secundaria: #482868;
+    --cor-terciara: black ;
+    --cor-quarta:white;
+    --cor-quinta : blanchedalmond;
+    --fonteitexto :'Roboto', sans-serif;
+    --fonte-texto2: 'Roboto', sans-serif;
+}
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+   box-sizing: border-box;
+   background-color:var(--cor-principal);
+   color:var(--cor-quinta);
+}
+
+.Cabeçalho{
+    padding: 2% 0% 0% 5%;
+}
+
+.Cabecalho_Menu{
+    display: flex;
+    gap: 10%;
+}
+
+.Cabecalho_Menu_Home{
+    color:var(--cor-secundaria);
+    font-family: var(--fonteitexto);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+.Cabecalho_Menu_Sobre{
+    color:var(--cor-secundaria);
+    font-family:var(--fonteitexto);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+.Cabecalho_Menu_Produtos{
+    color:var(--cor-secundaria);
+    font-family: var(--fonteitexto);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+.Titulo_Destaque{
+    color: var(--cor-secundaria);
+}
+.Paragrafo{
+    padding-left: 10%;
+    font-size: 1.25rem;
+    color :var(--cor-quarta) ;
+    font-family: var(--fonteitexto);
+
+}
+.Pessoa{
+    padding: 10%;
+    font-size: 2.25rem;
+    color : var(--cor-terciara);
+    font-family: var(--fonte-texto2);
+    
+}
+.Apresentaçao{
+    padding:10%,5%;
+    display: flex; /*Deixar os elementos separados */
+    align-items: center;/*Elementos no centro, confrom o amior elemento*/
+    justify-content: space-between; /*Separar os elementos das seções 
+    como temos duas apenas */
+    gap :82px;
+}
+.Apresentaçao_conteudo{
+    display: flex;
+    width:50%;
+    flex-direction: column;
+    gap:2.5rem;
+}
+.Imagem{
+
+position: absolute;
+width: 204px;
+height: 211px;
+left: 1236px;
+top: -3px;
+
+}
+.Imagem_P{
+ 
+position: absolute;
+width: 338px;
+height: 572px;
+left: 907px;
+top: 174px;
+
+
+}
+
+.Links{
+    display: flex;
+    justify-content:space-between ;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+}
+
+.Apresentação_Redes{
+    font-family: var(--fonte-texto2);
+    font-weight: 400;
+    font-size: 1.5rem;
+
+}
+
+.Apres_Links{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 50%;
+    text-align: center;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1.34375rem,0px;
+    text-decoration: none;
+    color:white;
+    font-family: var(--fonteitexto);
+    border: 0.1875rem outset var(--cor-secundaria);
+}
+.Apres_Links:hover{
+    background-color:var(--cor-secundaria);
+}
+.Roda_pé{
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    color: black;
+    text-align: center;
+    font-family: var(--fonteitexto);
+}
+.Caixatexto{
+    padding-left: 10%;
+    font-size: 1.25rem;
+    color :var(--cor-quarta) ;
+    font-family: var(--fonteitexto);
+}
+.Botão{
+    display: flex;
+    justify-content:space-between ;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+}
+.Botão_enviar{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 50%;
+    text-align: center;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1.34375rem,0px;
+    text-decoration: none;
+    color:white;
+    border: 0.1875rem outset var(--cor-secundaria);
+}
+.Video{
+    justify-content: center;
+    
+}
+@media(max-width:405px){
+    .Cabecalho_Menu{
+        justify-content: center;
+    }
+    .Cabeçalho{
+        padding : 10%
+    }
+    .Apresentaçao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    
+    }
+    .Apresentaçao_conteudo{
+        width: auto;
+    }
+}
+    
+    
