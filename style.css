@@ -31,7 +31,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 6rem;
+    padding: 2rem;
+}
+.titulo2{
+    color:aliceblue;
 }
 
 .Cabecalho_Menu a {
@@ -79,7 +82,7 @@ body {
     width: auto;
 }
 #home{
-    padding: 8rem;
+    margin-left: 2rem;
     background-color: #73628A;
 }
 
@@ -87,6 +90,7 @@ body {
     display: inline-flex;
 }
 #sobre{
+    padding: 2rem;
     width: 100%;
     background-color: var(--cor-secundaria);
 }
@@ -305,7 +309,7 @@ body {
     }
 
     .Links {
-        display: block;
+        
       
     }
 
