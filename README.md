@@ -12,6 +12,7 @@ Este projeto é um site para a BituryTech, uma startup de tecnologia que oferece
 - **Rodapé**: Informações sobre o desenvolvedor do site.
 
 ### Exemplo Visual do Projeto
+![image](https://github.com/user-attachments/assets/11d81e22-1bc6-45a9-a02a-cad1e427ab5b)
 
 
 ## ✔️ Técnicas e Tecnologias Utilizadas
@@ -52,7 +53,7 @@ Para executar o projeto localmente, siga estes passos:
 
 1. **Clone o repositório**:
    ```bash
-    git clone https://github.com/seuusuario/seurepositorio.git
+    git clone https://github.com/LipeLacross/Website-Biturytech.git
 
 2. **Instale as dependências**:
 
