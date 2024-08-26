@@ -67,16 +67,7 @@ Para executar o projeto localmente, siga estes passos:
    
 4. **Abra seu navegador e vá para http://localhost:3000 para ver o site.**
 
-🌐 Deploy
+## 🌐 Deploy
 
-Para implantar o projeto, siga estas etapas:
+O site está disponível online através do seguinte link: https://biturytech.netlify.app
 
-1. Construa o projeto para produção:
-
-```bash
-    npm run build
-```
-2. Publique o projeto em um serviço de hospedagem como Vercel, Netlify, ou outro de sua preferência.
-
-
-3. Configure o domínio e outras opções conforme necessário.
